@@ -1,0 +1,228 @@
+/* menubalk (header) */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 10%;
+}
+
+header img {
+    width: 15em;
+    height: 4em;
+}
+
+header li, a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    padding: 0.5em 1em;
+    background-color: #F1B18B;
+    border-radius: 1em;
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color: #ffffff;
+}
+
+.huidige {
+    color:rgb(255, 243, 112);
+}
+
+/* Body, main, section, p, h2, h3, h4 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(20deg, #F1ED8B, #FFB091, #FFFFFF,#F1ED8B, #F1B18B);
+    
+}
+
+p {
+    font-size: x-large;
+}
+
+footer a:focus {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2vw;
+}
+
+#over_ons h1, h2, h3 {
+    font-size: x-large;
+}
+
+#index h1, h2, h3 {
+    font-size: xx-large;
+}
+
+#afleveringen h1 {
+    font-size: xx-large;
+}
+
+#afleveringen h2, h3 {
+    font-size: x-large;
+}
+
+/* Main (homepagina) */
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100em;
+    height: 40em;
+    padding: 3em;
+    border: 0;
+}
+  
+/* Main (homepagina) "Over ons" section */
+
+#index section:first-of-type {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+#index section p {
+    padding-left: 1em ;
+}
+
+/* Main (homepagina) "Afleveringen" section */
+
+#index section:nth-child(2) {
+    padding: 3em;
+    display: flex;
+}
+
+#index section {
+    display: flex;
+    flex-direction: column;
+}
+
+#index article {
+    display: flex;
+}
+
+#index article div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.perfectionismepodcast {
+    width: 20em;
+    height: 20em;
+    padding: 2em;
+    margin-right: 1em;
+}
+
+article img {
+    display: flex;
+    width: 15em;
+    height: 15em;
+    border-radius: 5em;
+    padding: 1em;
+}
+
+/* Main (homepagina) achtergrond titel "ons team" */
+
+#index main h2 {
+    background-color: #FFFFFF;
+    padding: 1em;
+}
+
+/* Main (homepagina) "ons team" plaatjes en namen */
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+
+div img {
+    width: 20em;
+    height: 20em;
+    margin-inline: 2em;
+    border-radius: 1em;
+}
+
+
+/* Main (afleveringenpagina) afleveringen */
+
+#afleveringen section:first-of-type {
+    display: flex;
+    background-color: #F1B18B;
+    flex-direction: column;
+}
+
+#afleveringen article {
+    display: flex;
+}
+
+#afleveringen article div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main (over ons pagina) eerste alinea's met foto transition */
+
+.over_ons_info {
+    margin: auto;
+}
+
+.over_ons_info img {
+    width: 15em;
+    height: 15em;
+    
+}
+
+#over_ons div {
+    display: flex;
+    margin: auto;
+}
+
+  
+.over_ons_info img:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+  }
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 15em;
+
+}
+
+.producten img {
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
